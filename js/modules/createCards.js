@@ -28,7 +28,7 @@ const createCards = (news) => {
     containerHeader.appendChild(span);
     containerHeader.appendChild(heart);
     link.classList.add("underline");
-    link.setAttribute("href", "#")
+    link.setAttribute("href", item.url);
 
     span.classList.add("date");
     span.innerText = date.toLocaleDateString("pt-BR", dateOptions);
